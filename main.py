@@ -67,4 +67,3 @@ if __name__ == "__main__":
     args = parser.parse_args()
     video_path = find_video_file("video")
     process_video(video_path, threshold=args.threshold, frame_skip=args.skip)
-
